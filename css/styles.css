@@ -1,1 +1,361 @@
 /* Ini CSS */
+
+nav {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+
+}
+
+.logo-icon {
+    border: 1px solid;
+    background-image: url(https://picsum.photos/200);
+    height: 25px;
+    width: 50px;
+    margin-left: 24px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item {
+    border: 1px solid;
+    padding: 8px;
+    background-color: white;
+}
+
+.judul {
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+    margin: 50px;
+}
+
+.juduldec{
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    
+}
+
+.profile{
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+
+}
+
+.item-icon{
+    height: 43px;
+    width: 43px;
+    background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1520451477302648832/pu/img/if_7PsgTX-srh40D?format=jpg&name=900x900);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 117px;
+    margin-top: 19px;
+
+}
+
+.main-content-kiri {
+    width: 60%;
+    height: 500px;
+    margin-top: 23px;
+    margin-right: 0;
+    
+}
+
+.main-banner-container {
+    width: 90%;
+    height: 400px;
+    margin: 27px;
+    margin-left: 68px;
+    background-size: cover;
+
+}
+
+.main-content-banner {
+    border: 1px solid;
+    width: 90%;
+    height: 400px;
+    margin: 27px;
+    margin-left: 68px;
+    background-size: cover;
+    
+
+}
+
+.banner-1 {
+    background-image: url(https://hariannusantara.com/wp-content/uploads/2019/06/gambar-pemandangan-indonesia8.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://th.bing.com/th/id/OIP.5s3rEkU5SF_-XosQTZegcwHaE6?rs=1pid=ImgDetMain);
+
+    
+}
+
+.banner-3 {
+    background-image: url(https://i.pinimg.com/originals/22/94/94/2294941466088093da90f8c0534dd527.jpg);
+
+    
+}
+
+.text{
+    background-color: yellow;
+    padding: 5px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+
+}
+
+.profile-kesan {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.main-item {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    background-color: pink;
+    margin: 5px;
+    padding: 10px;
+
+}
+.nama {
+    text-align: left;
+    margin-left: 13px;
+}
+
+.kesan {
+    margin-left: 13px;
+    margin-top: 10px;
+    background-color: hotpink;
+    width: 65%;
+    text-align: left;
+}
+
+.main-content-kanan {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 71px;
+    background-color: aliceblue;
+    margin: 68px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.formlabel {
+    background-color: yellowgreen;
+    border: 1px solid;
+    padding: 15px;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.formdec {
+    background-color: green;
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 35px;
+    margin-top: 2px;
+
+
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+
+    
+}
+
+.groupname {
+    text-align: left;
+    background-color: rgb(233, 203, 233);
+    border: 1px solid;
+    padding: 5px;
+}
+
+.gender {
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 100%;
+    background-color: pink;
+}
+
+.submit {
+    width: 100%;
+    background-color: greenyellow;
+    border-color: navy;
+    margin-top: 25px;
+    padding: 14px;
+}
+
+.reason {
+    background-color: beige;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+
+.labelreason {
+    margin: 10px;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.package {
+    text-align: center;
+    background-color: lavender;
+    padding: 60px;
+    margin-top: 40px;
+}
+
+.group {
+    background-color: rgb(158, 252, 252);
+    padding: 20px;
+}
+
+.group-atas {
+    display: flex;
+}
+.group-bawah {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.profile-kesan {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 20px;
+    margin-left: 65px;
+    width: 65%;
+
+}
+
+
+.item-icon-kesan{
+    margin-top: 10px;
+    height: 50px;
+    width: 98px;
+    background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1520451477302648832/pu/img/if_7PsgTX-srh40D?format=jpg&name=900x900);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.package-bawah {
+    text-align: center;
+    background-color: lavender;
+    padding: 47px;
+    ;
+    margin: 0;
+}
+
+.package-bawah-label {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.package-bawah-dec {
+    padding-bottom: 40px;
+
+}
+
+.button-bawah {
+    width: 28%;
+    height: 40px;
+
+}
+
+.hfoot {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-foot {
+    border: 1px solid;
+    background-image: url(https://picsum.photos/200);
+    height: 25px;
+    width: 50px;
+    margin-left: 48%;
+    margin-right: 48%;
+    background-color: greenyellow;
+
+
+}
+
+.foot1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+
+}
+
+.group-foot {
+    background-color: greenyellow;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .head {
+        flex-direction: column;
+    }
+
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo-icon {
+        margin-bottom: 14px;
+    }
+
+    .main-content{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-content-kiri {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+}

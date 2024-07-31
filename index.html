@@ -5,8 +5,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\styles.css">
+    
 </head>
 <body>
+    <nav class="head" >
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+
+            <section class="nav-container">
+               <button class="nav-item">Home</button> 
+               <button class="nav-item">Our Package</button>
+               <button class="nav-item">Call Us</button>
+            </section>
+    </nav>
+
+    <main>
+        <article>
+            <header>
+                <h1 class="judul">Your Trusted Travel Agent's</h1>
+            </header>
+
+            <p class="juduldec">Your happiness is our happiness</p>
+
+        </article>
+
+        <section class="main-content">
+            <article class="main-content-kiri">
+                <div class="main-banner-container">
+                    <div class="main-content-banner banner-1">
+                    </div>
+                    <div class="main-content-banner banner-2">
+                    </div>
+                    <div class="main-content-banner banner-3">
+                    </div>
+                </div>
+                
+               
+                <div class="text">
+                    <p ><i>"Liburan seru bersama travel agent's"</i></p>
+                </div>
+
+                <div class="profile">
+                    <div class="item-icon"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Penilaian anda</p>
+                        </div>    
+                </div>
+                
+
+            </article>
+
+            
+
+            <form class="main-content-kanan">
+                <h1 class="formlabel">Contact Us</h1>
+                <p class="formdec">Kami akan menghubungi anda</p>
+
+                <label class="groupname">Your Name :</label>
+                <input class="input" id="input" type="text" placeholder="First anda last name">
+
+                <label class="groupname">Email Address :</label>
+                <input class="input" id="email" type="text" placeholder="example@gmail.com">
+
+                <label class="groupname">Gender :</label>
+                <select class="gender">Gender :
+                    <option value="0">Select option</option>
+                    <option value="1 ">Male</option>
+                    <option value="2">Famale</option>
+
+                </select>
+
+                <button class="submit" type="button" id="btn-submit" onclick="formValidation()">Submit</button>
+
+            </form>
+
+        </section>
+
+        <section class="reason">
+            <h1 class="labelreason">Reason why you should </h1>
+            <div class="reasondec">
+                <div class="main-item">
+                    <div class="item-icon"></div>
+                        <div >
+                            <p class="kesan">Penilaian anda</p>
+                        </div>   
+                    </div>
+
+                    <div class="main-item">
+                        <div class="item-icon"></div>
+                            <div >
+                                <p class="kesan">Penilaian anda</p>
+                            </div>   
+                        </div>    
     
+                        <div class="main-item">
+                            <div class="item-icon"></div>
+                                <div >
+                                    <p class="kesan">Penilaian anda</p>
+                                </div>   
+                            </div>
+
+                            <div class="main-item">
+                                <div class="item-icon"></div>
+                                    <div >
+                                        <p class="kesan">Penilaian anda</p>
+                                    </div>   
+                                </div>   
+            </div>
+           
+            
+        </section>
+    </main>
+    <footer>
+        <h1 class="package">OUR PACKAGE</h1>
+        <section class="group">
+            <div class="group-atas">
+                <div class="profile-kesan">
+                    <div class="item-icon-kesan"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+                        </div>    
+                </div>
+                <div class="profile-kesan">
+                    <div class="item-icon-kesan"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+                        </div>    
+                </div>
+                <div class="profile-kesan">
+                    <div class="item-icon-kesan"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+                        </div>    
+                </div>
+        </div>     
+                                                                                
+            <div class="group-bawah">
+                <div class="profile-kesan">
+                    <div class="item-icon-kesan"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+                        </div>    
+                </div>
+                <div class="profile-kesan">
+                    <div class="item-icon-kesan"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+                        </div>    
+                </div>
+                <div class="profile-kesan">
+                    <div class="item-icon-kesan"></div>
+                        <div >
+                            <h3 class="nama">Nama</h3>
+                            <p class="kesan">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+                        </div>    
+                </div>  
+            </div>                                                                                   
+        </section>
+        <section class="package-bawah">
+            <h1 class="package-bawah-label">Your closing argument</h1>
+            <div>
+                <p class="package-bawah-dec">Bali adalah destinasi wisata yg sangat banyak peminat nya, dari dalam negri maupun luar negri.</p>
+
+            </div>
+            <button class="button-bawah" type="button">Submit</button>
+        </section>
+        <section class="group">
+            <section>
+                <img class="logo-foot"></img>
+    
+            </section>
+            <section class="hfoot">
+                <div>
+                    <p class="foot1">terms service privacy policy</p>
+                    <p class="foot1">@2019  Revou</p>
+                </div>
+                
+             
+    
+    
+            </section>
+
+        </section>
+        
+       
+    </footer>
+    <script src="js\script.js"></script>
 </body>
 </html>
