@@ -1,7 +1,6 @@
 /* Ini CSS */
 
 nav {
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     padding: 12px;
@@ -29,17 +28,18 @@ nav {
 
 .judul {
     text-align: center;
-    background-color: yellow;
-    padding: 5px;
-    margin: 50px;
+    padding: 40px;
 }
 
 .juduldec{
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .main-content {
     display: flex;
+    height: 75
+    0px;
     
 }
 
@@ -47,6 +47,26 @@ nav {
     display: flex;
     text-align: center;
     align-items: flex-start;
+    width: 295px;
+    margin-left: 104px;
+
+
+}
+
+.profiledec {
+
+}
+
+.nama-atas {
+    text-align: left;
+    margin-left: 13px;
+}
+
+.kesan-atas {
+    margin-left: 13px;
+    margin-top: -9px;
+    width: 100%;
+    text-align: left;
 
 }
 
@@ -57,24 +77,34 @@ nav {
     background-size: cover;
     border-radius: 50%;
     margin-left: 117px;
-    margin-top: 19px;
+}
 
+.item-icon-atas{
+    height: 43px;
+    width: 43px;
+    background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1520451477302648832/pu/img/if_7PsgTX-srh40D?format=jpg&name=900x900);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 19px;
 }
 
 .main-content-kiri {
     width: 60%;
     height: 500px;
-    margin-top: 23px;
     margin-right: 0;
     
 }
 
 .main-banner-container {
     width: 90%;
-    height: 400px;
-    margin: 27px;
-    margin-left: 68px;
+    height: 417px;
     background-size: cover;
+    display: ruby-text;
+    margin: 42px;
+    margin-bottom: 5px;
+    margin-top: 24px;
+    margin-left: 61px;
 
 }
 
@@ -82,51 +112,41 @@ nav {
     border: 1px solid;
     width: 90%;
     height: 400px;
-    margin: 27px;
-    margin-left: 68px;
     background-size: cover;
-    
-
 }
 
 .banner-1 {
     background-image: url(https://hariannusantara.com/wp-content/uploads/2019/06/gambar-pemandangan-indonesia8.jpg);
+    width: 90%;
+    height: 400px;
 }
 
 .banner-2 {
     background-image: url(https://th.bing.com/th/id/OIP.5s3rEkU5SF_-XosQTZegcwHaE6?rs=1pid=ImgDetMain);
-
+    width: 90%;
+    height: 400px;
     
 }
 
 .banner-3 {
     background-image: url(https://i.pinimg.com/originals/22/94/94/2294941466088093da90f8c0534dd527.jpg);
-
+    width: 90%;
+    height: 400px;
     
 }
 
 .text{
-    background-color: yellow;
-    padding: 5px;
-    margin-left: 80px;
     margin-bottom: 0px;
-
+    margin-left: 114px;
+    
 }
 
-.profile-kesan {
-    display: flex;
-    text-align: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: stretch;
-}
 
 .main-item {
     display: flex;
     justify-content: flex-start;
     text-align: center;
     align-items: center;
-    background-color: pink;
     margin: 5px;
     padding: 10px;
 
@@ -139,26 +159,31 @@ nav {
 .kesan {
     margin-left: 13px;
     margin-top: 10px;
-    background-color: hotpink;
+    margin-bottom: 10px;
     width: 65%;
     text-align: left;
 }
 
+.cover-form {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-content-kanan {
-    width: 30%;
+    width: 370px;
     height: 500px;
     display: flex;
     flex-direction: column;
-    padding: 71px;
     background-color: aliceblue;
     margin: 68px;
-    margin-top: 50px;
-    margin-left: 40px;
+    padding: 35px;
+    margin-top: 23px;
 }
 
 .formlabel {
-    background-color: yellowgreen;
-    border: 1px solid;
+    width: 200px;
     padding: 15px;
     padding-left: 0;
     margin: 0;
@@ -166,17 +191,17 @@ nav {
 }
 
 .formdec {
-    background-color: green;
-    border: 1px solid;
     padding: 5px;
     margin-bottom: 35px;
-    margin-top: 2px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    width: 150px;
 
 
 }
 
 input {
-    width: 100%;
+    width: 350px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -190,8 +215,6 @@ input {
 
 .groupname {
     text-align: left;
-    background-color: rgb(233, 203, 233);
-    border: 1px solid;
     padding: 5px;
 }
 
@@ -200,20 +223,20 @@ input {
     margin-top: 5px;
     margin-bottom: 5px;
     height: 30px;
-    width: 100%;
+    width: 350px;
     background-color: pink;
 }
 
 .submit {
+    border-color: purple;
     width: 100%;
-    background-color: greenyellow;
-    border-color: navy;
+    background-color: rgb(219, 161, 248);
     margin-top: 25px;
     padding: 14px;
 }
 
 .reason {
-    background-color: beige;
+
     text-align: center;
     align-items: center;
     padding: 10px;
@@ -256,7 +279,7 @@ input {
     flex-direction: row;
     align-items: stretch;
     padding: 20px;
-    margin-left: 65px;
+    margin-left: 46px;
     width: 65%;
 
 }
@@ -265,7 +288,7 @@ input {
 .item-icon-kesan{
     margin-top: 10px;
     height: 50px;
-    width: 98px;
+    width: 125px;
     background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1520451477302648832/pu/img/if_7PsgTX-srh40D?format=jpg&name=900x900);
     background-size: cover;
     border-radius: 50%;
@@ -274,7 +297,6 @@ input {
 
 .package-bawah {
     text-align: center;
-    background-color: lavender;
     padding: 47px;
     ;
     margin: 0;
@@ -302,15 +324,9 @@ input {
 }
 
 .logo-foot {
-    border: 1px solid;
     background-image: url(https://picsum.photos/200);
-    height: 25px;
+    height: 20px;
     width: 50px;
-    margin-left: 48%;
-    margin-right: 48%;
-    background-color: greenyellow;
-
-
 }
 
 .foot1 {
@@ -322,6 +338,9 @@ input {
 
 .group-foot {
     background-color: greenyellow;
+    padding: 20px;
+    display: grid;
+    justify-items: center;
 
 }
 
@@ -334,7 +353,7 @@ input {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     .head {
         flex-direction: column;
     }
@@ -351,11 +370,125 @@ input {
     .main-content{
         flex-direction: column;
         width: 100%;
-    }
-
-    .main-content-kiri {
-        flex-direction: column;
+        height: 100%;
         display: flex;
         align-items: center;
+    }
+
+    .main-content-kiri{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        justify-items: center;
+    }
+
+    .main-banner-container {
+        display: contents;
+        width: 100%;
+        height: 417px;
+        background-size: cover;
+        margin-bottom: 5px;
+        margin-top: 24px;
+        margin-left: 61px;
+        
+    }
+    .main-content-kanan{
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+        display: grid;
+        justify-content: space-around;
+
+  }
+
+    .cover-form {
+        margin: 0;
+        display: grid;
+        justify-content: space-between;  
+        align-content: space-evenly;
+        height: 450px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }    
+
+
+    .submit {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 86%;
+
+
+    }
+
+    .main-item {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 20px;
+        }
+    .item-icon {
+        margin-left: 56px;
+    }
+
+    .group {
+        display: flex;
+        justify-content: center;
+    }
+    .group-atas {
+        display: grid;
+    }
+
+    .group-bawah {
+        display: grid;
+        margin-top: 0;
+    }
+
+    .profile-kesan {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        align-items: stretch;
+        padding: 20px;
+        margin-left: 39px;
+        width: 65%;
+    }
+
+    .item-icon-kesan {
+        margin-top: 10px;
+        height: 56px;
+        width: 201px;
+        background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1520451477302648832/pu/img/if_7PsgTX-srh40D?format=jpg&name=900x900);
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .text {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        display: contents;
+    }
+
+    .profiledec {
+        width: 35px;
+        height: 105px;
+        text-align: center;
+    }
+
+    .profile {
+        width: 295px;
+        display: flex;
+        text-align: center;
+        align-items: flex-start;
+    
+    }
+
+    .kesan {
+        margin-left: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: left;
     }
 }
