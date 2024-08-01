@@ -224,9 +224,9 @@ nav {
 .formdec {
     padding: 5px;
     margin-bottom: 46px;
-    margin-top: 4px;
+    margin-top: -8px;
     margin-bottom: 30px;
-    width: 150px;
+    width: 90%;
     text-align: left;
 
 
@@ -579,4 +579,14 @@ input {
     .package {
         margin-top: 103px;
     }
+
+    input {
+        width: 100%;
+        
+    }
+
+    .gender {
+        width: 100%;
+    }
+
 }
